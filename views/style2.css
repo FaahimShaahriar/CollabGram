@@ -1,0 +1,566 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    background-color: #f2f4f8;
+}
+
+.row {
+    width: 100%;
+}
+
+.row::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+.logo-div {
+    display: block;
+    text-align: left;
+    padding: 10px;
+    width: 1px; /* Set the desired width */
+    height: 10px; /* Set the desired height */
+}
+
+
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+}
+
+/*for mobile phone*/
+[class*="col-"] {
+    width: 100%;
+}
+
+/* header starts here  */
+header {
+    background: linear-gradient(to right, #e1306c, #833ab4);
+    padding: 0% 1%;
+    text-align: center;
+}
+.hudai{
+    background: linear-gradient(to right, #e1306c, #833ab4);
+    margin-right: 20px;
+}
+.left {
+    background: linear-gradient(to right, #e1306c, #833ab4);
+    padding: 1% 10%;
+    text-align: left;
+}
+.hudai ul {
+    margin-right: 40px;
+    
+}
+.hudai ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 50px;
+    padding:  10px;
+    transition: .4s;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: -0.1px;
+}
+.topbar {
+    display: block;
+    padding: 0.02px;
+}
+
+.left ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    
+}
+
+.hudai ul li a:hover {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+.header-content {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-div {
+    display: block;
+    text-align: left;
+    padding: 10px;
+}
+
+.heading-style {
+    display: block;
+    margin: auto;
+    padding: -20px;
+    color: #f5f5f5;
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    padding-top: -50px;
+    padding-bottom: 5px;
+}
+
+.nav-container {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+input[type="submit"] {
+    display: block;
+    color: #ffffff; /* Set the text color to white */
+    background-color: #e1306c; /* Set the background color to a blue shade (you can change this to your preferred color) */
+    padding: 10px 20px; /* Add padding to the button */
+    border: none; /* Remove the default button border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    font-size: 16px; /* Set the font size */
+}
+
+/* Style on hover (optional) */
+input[type="submit"]:hover {
+    background-color:  #e1306c;/* Darker shade of blue on hover */
+}
+
+
+.heading-style {
+    display: block;
+    margin: auto;
+    padding: -20px;
+    color: #f5f5f5;
+    font-family: "Open Sans", sans-serif;
+    padding-top: -50px ;
+    padding-bottom: 5px ;
+}
+
+
+
+    /* header ends here  */
+
+
+
+    /* footer starts here  */
+
+
+    /* footer ends here  */
+
+/* Add these styles to your existing style5.css or replace its content with this */
+
+/* ... (Your existing styles) ... */
+
+/* Style for Explore page */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 50px);
+}
+
+main fieldset {
+    width: 80%;
+    max-width: 1500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #e1306c;
+    align-items: center;
+}
+
+main div {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+main div p {
+    font-size: 20px;
+    color: #e1306c;
+}
+main div l {
+    font-size: 20px;
+    color: #000000;
+}
+
+main div img {
+    display: block;
+    max-width: 50%; /* Set the maximum width to the width of the parent container */
+    height: 500px; /* Maintain the aspect ratio of the image */
+    width: 40%; /* Make the image fill the width of the parent container */
+    border-radius: 10px;
+    margin-top: 5px;
+}
+/* styles.css */
+.interaction-buttons {
+    display: block;
+    margin-top: 10px;
+    color: #e1306c;
+}
+
+.like-btn, .comment-btn {
+    display: block;
+    padding: 5px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.like-btn:hover, .comment-btn:hover {
+    display: block;
+    background-color: #ddd;
+}
+
+
+/* ... (Your existing styles) ... */
+
+
+img {
+    display:block;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+/* header ends here  */
+
+.card {
+    width: 650px;
+    margin:0px auto;
+    margin-left: -200px ;
+    margin-right: 50px ;
+
+    padding: 10px;
+    background-color: #fff;
+    /* Set your desired background color */
+    border-radius: 10px;
+    box-shadow: 0 12px 16px rgba(15, 13, 13, 0.1);
+    /* Add shadow effect */
+}
+
+/* Style for the "Logged in as" text */
+.card h2 {
+    margin: 0;
+    color: #e1306c;
+    /* Set your desired text color */
+}
+/* footer starts here  */
+footer {
+    background: linear-gradient(to right, #e1306c, #833ab4);
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.8rem;
+    line-height: 32px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* middle-part start  here  */
+
+/* Style for the outer container (you may need to adjust the width and margin based on your layout) */
+fieldset {
+    width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    /* Border for the fieldset */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Box shadow for a subtle effect */
+}
+
+/* Style for the legend */
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style for the table inside the fieldset */
+table {
+    width: 100%;
+}
+
+/* Style for table cells (td) */
+td {
+    padding: 8px;
+    
+    /* Border between rows */
+}
+
+/* Style for the last row without a border-bottom */
+td:last-child {
+    border-bottom: none;
+}
+
+/* Style for the profile picture */
+td img {
+    width: 100px;
+    /* Adjust the width as needed */
+    height: 100px;
+    /* Adjust the height as needed */
+    border-radius: 50%;
+    /* Make the image circular */
+}
+
+/* Style for the "Change" link */
+td[colspan="4"] a {
+    display: block;
+    text-align: center;
+    padding: 8px;
+    background-color:linear-gradient(to right, #e1306c, #833ab4);
+    /* Set your desired background color */
+    color: #fff;
+    /* Set your desired text color */
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the "Change" link */
+td[colspan="4"] a:hover {
+    background-color: #45a049;
+    /* Set your desired hover background color */
+}
+
+/* middle-part ends  here  */
+
+
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media (min-width: 576px) {
+
+    .col-sm-1 {
+        width: 8.33%;
+    }
+
+    .col-sm-2 {
+        width: 16.66%;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+    }
+
+    .col-sm-4 {
+        width: 33.33%;
+    }
+
+    .col-sm-5 {
+        width: 41.66%;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+    }
+
+    .col-sm-7 {
+        width: 58.33%;
+    }
+
+    .col-sm-8 {
+        width: 66.66%;
+    }
+
+    .col-sm-9 {
+        width: 75%;
+    }
+
+    .col-sm-10 {
+        width: 83.33%;
+    }
+
+    .col-sm-11 {
+        width: 91.66%;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    .col-md-1 {
+        width: 8.33%;
+    }
+
+    .col-md-2 {
+        width: 16.66%;
+    }
+
+    .col-md-3 {
+        width: 25%;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
+    }
+
+    .col-md-5 {
+        width: 41.66%;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-7 {
+        width: 58.33%;
+    }
+
+    .col-md-8 {
+        width: 66.66%;
+    }
+
+    .col-md-9 {
+        width: 75%;
+    }
+
+    .col-md-10 {
+        width: 83.33%;
+    }
+
+    .col-md-11 {
+        width: 91.66%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+    /* Large screen column width */
+    .col-lg-1 {
+        width: 8.33%;
+    }
+
+    .col-lg-2 {
+        width: 16.66%;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+    }
+
+    .col-lg-5 {
+        width: 41.66%;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+    }
+
+    .col-lg-7 {
+        width: 58.33%;
+    }
+
+    .col-lg-8 {
+        width: 66.66%;
+       margin-top: 10px ;
+       margin-left: -100px;
+       font-size: 35px ;
+       font-weight: bold;
+    }
+
+    .col-lg-9 {
+        width: 75%;
+    }
+
+    .col-lg-10 {
+        width: 83.33%;
+    }
+
+    .col-lg-11 {
+        width: 91.66%;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+
+    /* header starts here  */
+    .logo-div {
+        text-align: left;
+    }
+
+
+}

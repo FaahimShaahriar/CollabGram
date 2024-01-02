@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-head {
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px; /* Add margin between each table */
+}
+
+
+.profile-body {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.profile-body td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.profile-body tr {
+    margin-bottom: 10px; /* Add margin between each table row */
+}
+
+.profile-foot {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.profile-foot a {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-foot a:hover {
+    background-color: #2980b9;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.profile-body .data-row {
+    margin-bottom: 10px; /* Add margin between each table row */
+    background-color: #f9f9f9; /* Example background color for data rows */
+}
+
+.profile-body .data-row td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.profile-body .data-row img {
+    max-width: 100px; /* Example: Set a maximum width for the images */
+}

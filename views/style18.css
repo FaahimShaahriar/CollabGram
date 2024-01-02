@@ -1,0 +1,458 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.container {
+    max-width: 1200px;
+    /* container screen define ko re di che oi jonno pora screen ju re aste ce nah  */
+    margin: auto;
+    margin-top: 1px;
+    background: #f2f4f8;
+
+
+}
+
+.row {
+    width: 100%;
+}
+
+.row::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+/*for mobile phone*/
+[class*="col-"] {
+    width: 100%;
+}
+
+/* header starts here  */
+header {
+    background: linear-gradient(to right, #e1306c, #833ab4);
+    padding: 0% 1%;
+    text-align: center;
+}
+
+nav {
+    background: linear-gradient(to right, #e1306c, #833ab4);
+}
+
+nav ul li {
+    display: block;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 70px;
+    padding: 0 20px;
+    transition: .4s;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav ul li a:hover {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+
+img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+
+
+
+
+
+
+/* header ends here  */
+
+.card {
+    width: 650px;
+    line-height: 40px ;
+    margin: 0px auto;
+    margin-left: -200px;
+    margin-right: 50px;
+
+    padding: 10px;
+    background-color: #fff;
+    /* Set your desired background color */
+    border-radius: 10px;
+    box-shadow: 0 12px 16px rgba(15, 13, 13, 0.1);
+    /* Add shadow effect */
+}
+
+/* Style for the "Logged in as" text */
+.card h2 {
+    margin: 0;
+    color: #333;
+    /* Set your desired text color */
+}
+
+/* footer starts here  */
+footer {
+    background: linear-gradient(to right, #e1306c, #833ab4);
+    padding: 1%;
+    color: white;
+    margin-bottom: 1px;
+}
+
+footer p {
+    font-size: 0.8rem;
+    line-height: 32px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* middle-part start  here  */
+
+
+/* Reset some default styles */
+body,
+h2,
+table,
+td,
+input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the fieldset */
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style for the table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table,
+td {
+    border: 1px solid #ccc;
+}
+
+td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Style for the form input fields */
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Style for the submit button */
+input[type="button"] {
+    background-color: linear-gradient(to right, #e1306c, #833ab4);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: linear-gradient(to right, #e1306c, #833ab4);
+}
+
+/* Style for the hr element */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 10px 0;
+}
+
+/* Style for the success and error messages */
+#success,
+#error {
+    margin-top: 10px;
+}
+
+#success {
+    color: green;
+}
+
+#error {
+    color: red;
+}
+
+
+/* middle-part ends  here  */
+
+
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media (min-width: 576px) {
+
+    .col-sm-1 {
+        width: 8.33%;
+    }
+
+    .col-sm-2 {
+        width: 16.66%;
+    }
+
+    .col-sm-3 {
+        width: 25%;
+    }
+
+    .col-sm-4 {
+        width: 33.33%;
+    }
+
+    .col-sm-5 {
+        width: 41.66%;
+    }
+
+    .col-sm-6 {
+        width: 50%;
+    }
+
+    .col-sm-7 {
+        width: 58.33%;
+    }
+
+    .col-sm-8 {
+        width: 66.66%;
+    }
+
+    .col-sm-9 {
+        width: 75%;
+    }
+
+    .col-sm-10 {
+        width: 83.33%;
+    }
+
+    .col-sm-11 {
+        width: 91.66%;
+    }
+
+    .col-sm-12 {
+        width: 100%;
+    }
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) {
+
+    .col-md-1 {
+        width: 8.33%;
+    }
+
+    .col-md-2 {
+        width: 16.66%;
+    }
+
+    .col-md-3 {
+        width: 25%;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
+    }
+
+    .col-md-5 {
+        width: 41.66%;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-7 {
+        width: 58.33%;
+    }
+
+    .col-md-8 {
+        width: 66.66%;
+    }
+
+    .col-md-9 {
+        width: 75%;
+    }
+
+    .col-md-10 {
+        width: 83.33%;
+    }
+
+    .col-md-11 {
+        width: 91.66%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+
+    /* Large screen column width */
+    .col-lg-1 {
+        width: 8.33%;
+    }
+
+    .col-lg-2 {
+        width: 16.66%;
+    }
+
+    .col-lg-3 {
+        width: 25%;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+    }
+
+    .col-lg-5 {
+        width: 41.66%;
+    }
+
+    .col-lg-6 {
+        width: 50%;
+    }
+
+    .col-lg-7 {
+        width: 58.33%;
+    }
+
+    .col-lg-8 {
+        width: 66.66%;
+        margin-top: 10px;
+        margin-left: -100px;
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .col-lg-9 {
+        width: 75%;
+    }
+
+    .col-lg-10 {
+        width: 83.33%;
+    }
+
+    .col-lg-11 {
+        width: 91.66%;
+    }
+
+    .col-lg-12 {
+        width: 100%;
+    }
+
+    /* header starts here  */
+    .logo-div {
+        text-align: left;
+    }
+
+    nav {
+        background: linear-gradient(to right, #e1306c, #833ab4);
+        margin-top: -72px;
+        margin-bottom: -1px;
+        margin-left: -1px;
+        margin-right: 20px;
+
+        padding-top: 90px;
+        padding-bottom: 120px;
+
+
+
+    }
+
+    nav ul li {
+        display: block;
+        color: #24a19c;
+        background-color: linear-gradient(to right, #e1306c, #833ab4);
+
+    }
+
+    nav ul li a {
+        display: block;
+        text-decoration: none;
+        color: white;
+        background-color: linear-gradient(to right, #e1306c, #833ab4);
+        line-height: 70px;
+        padding: 0 20px;
+        transition: .4s;
+        text-transform: uppercase;
+        font-weight: lighter;
+        font-size: 0.9rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    nav ul li a:hover {
+        border-radius: 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+    }
+
+
+    .heading-style {
+        margin: auto;
+    }
+
+    /* header ends here  */
+
+
+
+    /* footer starts here  */
+
+
+    /* footer ends here  */
+
+}

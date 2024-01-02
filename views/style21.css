@@ -1,0 +1,37 @@
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+
+h1 {
+    color: #333333;
+    text-align: center;
+}
+
+ul {
+    list-style-type: square;
+    /* Set the list style type to square for unordered lists */
+    padding-left: 20px;
+    /* Add left padding for better readability */
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: linear-gradient(to right, #e1306c, #833ab4);
+}
+
+a:hover {
+    color: linear-gradient(to right, #e1306c, #833ab4);
+}
+
+/* Add more styling as needed */
